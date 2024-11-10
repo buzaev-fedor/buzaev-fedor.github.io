@@ -2,109 +2,132 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet", crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/custom.css">
-    <title> buzaev.github.io | Junior computer vision dev</title>
+    <title> buzaev-fedor.github.io | Deep Learning Researcher </title>
   </head>
   <body>
 
     <section class="promo dark-bg pt-2 pb-5">
       <div class="container">
         <nav class="navbar navbar-expand-lg mb-5 navbar-dark">
-          <a href="#" class="navbar-brand logo d-flex align-items-center text-white text-decoration-none align-content-start">
-            <div class="logo-left pr-2">
-              <img src="../static/6.png" alt="" class="rounded-circle" width="54">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand logo d-flex align-items-center text-decoration-none">
+              <div class="logo-left pe-2">
+                <img src="../static/6.png" alt="" class="rounded-circle" width="70">
+              </div>
+              <div class="logo-right" style="margin-left: 6px;">
+                <div class="logo-title link-purple">buzaev-fedor.github.io</div>
+                <div class="logo-subtitle text-yellow">Deep Learning Researcher</div>
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav m-auto">
+                <li class="nav-item mx-3">
+                  <a href="#story" class="nav-link link-purple link-border-bottom">Вкратце обо мне</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#projects" class="nav-link link-purple link-border-bottom">Мой опыт работы</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#contact" class="nav-link link-purple link-border-bottom">Сотрудничество</a>
+                </li>
+              </ul>
+              <ul class="nav ml-auto">
+                <li class="nav-item mx-3">
+                  <a href="https://github.com/buzaev-fedor" class="nav-link link-purple link-border-bottom">Github</a>
+                </li>
+                <li class="nav-item mx-3 mr-0">
+                  <a href="#contact" class="nav-link link-purple link-border-bottom">Написать мне</a>
+                </li>
+              </ul>
             </div>
-            <div class="logo-right ">
-              <div class="logo-title">buzaev.github.io</div>
-              <div class="logo-subtitle text-muted">Junior Computer Vision dev</div>
-            </div>
-          </a>
-          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav m-auto">
-              <li class="nav-item mx-3">
-                <a href="#story" class="nav-link text-muted link-border-bottom">Моя история</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a href="#projects" class="nav-link text-muted link-border-bottom">Мои работы</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a href="#contact" class="nav-link text-muted link-border-bottom">Сотрудичество</a>
-              </li>
-            </ul>
-            <ul class="nav ml-auto">
-              <li class="nav-item mx-3">
-                <a href="https://github.com/buzaev-fedor" class="nav-link text-white link-border-bottom">Github</a>
-              </li>
-              <li class="nav-item mx-3 mr-0">
-                <a href="#contact" class="nav-link text-white link-border-bottom">Написать мне</a>
-              </li>
-            </ul>
           </div>
         </nav>
 
 
         <div class="row py-0 py-sm-5">
           <div class="col-12 col-lg-8 offset-lg-2 mb-0 mb-sm-5 py-5">
-            <h1 class="h1 font-weight-bold font-color-green mb-4">Привет! Меня зовут Федор</h1>
-            <p class="promo-text pb-3">Я&nbsp;&mdash; Junior Computer Vision developer, использую OpenCV, <br> Torch, чутка Tensorflow и для деплоя Flask. </p>
-            <a href="#contact" class="btn btn-success btn-green">Написать мне</a>
+            <h1 class="h1 font-weight-bold font greeting-text text-blue">Привет! Меня зовут Федор</h1>
+            <p class="promo-text pb-3">Я&nbsp;&mdash; Deep Learning Researcher и Junior Research Fellow в Lambda HSE, <br> исследую нейронные сети для физики и зачем нужно NLP в Звуке. </p>
+            <a href="#contact" class="btn text-center" style="background-color: #DCFF05; color: #102D69">Написать мне</a>
           </div>
         </div>
       </div>
     </section>
 
     <section class="story container py-5 text-center" id="story">
-      <h2 class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3">Моя история</h2>
+      <h2 class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3 navigo-font">Обо мне</h2>
       <div class="row">
         <div class="col-12 col-sm-8 offset-sm-2 px-2 pb-5">
-          <p class="font-weight-bold pb-4">Я &mdash; выпускник Московского энергетического института. &nbsp После окончания обучения&nbsp;начал заниматься разработкой, прошел <a href="https://drive.google.com/file/d/1KA5EN2AkxcQYVrRhtXF7GDnsIg-53FVK/view?usp=sharing" class="story-link" target="_blank">курс по&nbsp;машинному обучению в МФТИ&nbsp;</a>,<br> &nbsp;<a href="https://drive.google.com/file/d/1lY4Bqi9aHiWbyceCOybcDTuI1pbOfR4i/view?usp=sharing" class="story-link" target="_blank">курс по&nbsp;высшей математике во &nbsp;ВШЭ</a>.</p>
-          <p class="pb-4">Я&nbsp;занимаюсь разработкой простых<br> сервисов, использующих алгоритмы CV.&nbsp;<br> Знаю основы алгоритмов компьютерного зрения и OpenCV. <br> В&nbsp;работе мне нравится использовать фреймворки Torch и Flask.&nbsp;</p>
+          <p class="font-weight-bold pb-4">Я &mdash; аспирант второго года <a href="https://www.hse.ru/staff/buzaev" class="story-link" target="_blank">ФКН ВШЭ</a>,<br> преподаватель и исследователь LLM в Бигтехе.<br> &nbsp;
+            <p class="font-weight-bold pb-4">Я люблю красные носки, ходить на беговых лыжах,<br> кофе ☕ и слушать музыку на виниловом проигрывателе.</p>
         </div>
       </div>
     </section>
 
     <section class="projects dark-bg pt-3 pt-sm-5 pb-3" id="projects">
       <div class="container">
-        <h2 class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5">Мои работы</h2>
-        <div class="row">
-          <div class="col-12 col-sm-6 mb-5">
-            <img src="../static/yolo.jpg" alt="" class="w-100 pb-4">
-            <p class="mb-3">Система умной парковки на YoloV4 в реальном времени</p>
-            <p>
-              <a href="https://github.com/buzaev-fedor/Smart-parking-yolo" target="_blank" class="link link-green mr-4">Смотреть проект</a>
-              <a href="https://github.com/buzaev-fedor/Smart-parking-yolo/blob/main/main.py" target="_blank" class="link">Исходный код</a>
-            </p>
+        <h2 class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5 navigo-font">Мой опыт работы</h2>
+        
+        <div class="work-experience text-white">
+          <div class="d-flex align-items-center mb-4">
+            <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="HSE Logo" class="me-3" style="height: 60px; margin-top: -6px;">
+            <div class="d-flex flex-column justify-content-center">
+              <h3 class="h4 mb-1">НИУ «ВШЭ»</h3>
+              <p class="text-white-40 mb-0">Сентябрь 2022 – Настоящее время</p>
+            </div>
           </div>
-          <div class="col-12 col-sm-6 mb-5">
-            <img src="../static/maskrcnn.jpg" alt="" class="w-100 pb-4">
-            <p class="mb-3">Система умной парковки на MaskRCNN в реальном времени</p>
-            <p>
-              <a href="https://github.com/buzaev-fedor/Smart-Parking-System-MaskRCNN" target="_blank" class="link link-green mr-4">Смотреть проект</a>
-              <a href="https://github.com/buzaev-fedor/Smart-Parking-System-MaskRCNN/blob/main/main.py" target="_blank" class="link">Исходный код</a>
-            </p>
+          
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Младший научный сотрудник</h4>
+            <p class="text-white" style="opacity: 0.4">Октябрь 2023 – настоящее время</p>
+            <p>Занимаюсь изучением применения концепции Physics Informed Neural Networks для предсказания погодных условий.</p>
           </div>
-          <div class="col-12 col-sm-6 mb-5">
-            <img src="../static/notebooks.jpg" alt="" class="w-100 pb-4">
-            <p class="mb-3">Тетрадки с классическим машинным обучением</p>
-            <p>
-              <a href="https://github.com/buzaev-fedor/my-project-from-ml-course" target="_blank" class="link link-green mr-4">Смотреть проект</a>
-              <a href="https://github.com/buzaev-fedor/my-project-from-ml-course" target="_blank" class="link">Исходный код</a>
-            </p>
+
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Стажер-исследователь</h4>
+            <p class="text-white" style="opacity: 0.4">Июнь 2023 – Октябрь 2023</p>
+            <p>Исследовал Physics Informed Neural Networks для Баротропного уравнения.</p>
           </div>
-          <div class="col-12 col-sm-6 mb-5">
-            <img src="../static/teachers.jpg" alt="" class="w-100 pb-4">
-            <p class="mb-3">Поисковик репетиторов. 4&nbsp;экрана: главная, страница и расписание репетитора, подбор репетитора и запись на урок. В этом проекте использовалась база данных SQLite</p>
-            <p>
-              <a href="https://dry-savannah-88077.herokuapp.com/" target="_blank" class="link link-green mr-4">Смотреть проект</a>
-              <a href="https://github.com/buzaev-fedor/stepik_week_4" target="_blank" class="link">Исходный код</a>
-            </p>
+
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Преподаватель курсов</h4>
+            <p class="text-white" style="opacity: 0.4">Сентябрь 2023 – Настоящее время</p>
+            <p>Преподаю <a href="https://www.hse.ru/edu/courses/908663251" class="link-purple">продвинутый Python</a> на 2-ом курсе ЭАД, также вел курс по <a href="https://www.hse.ru/edu/courses/835142953" class="link-purple">генеративным моделям</a> на 4-ом курсе ПМИ.</p>
           </div>
-        </div>
+
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Ассистент курса по продвинутому Python</h4>
+            <p class="text-white" style="opacity: 0.4">Сентябрь 2022 – Декабрь 2022</p>
+            <p>Был ассистентом лектора и соавтором курса, участвовал в разработке материалов и проведении практических занятий.</p>
+          </div>
+
+          <div class="work-experience text-white"></div>
+          <div class="d-flex align-items-center mb-4">
+            <img src="../static/huawei_logo.png" alt="Huawei Logo" class="me-3" style="height: 60px; margin-top: -9px;">
+            <div class="d-flex flex-column justify-content-center">
+              <h3 class="h4 mb-1">Huawei Russian Research Institute</h3>
+              <p class="text-white-40 mb-0">Сентябрь 2022 – Настоящее время</p>
+            </div>
+          </div>
+          
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Middle Deep Learning Researcher</h4>
+            <p class="text-white" style="opacity: 0.4">Август 2023 – настоящее время</p>
+            <p>Занимаюсь разработкой и обученией мультимодальной LLM модели, которая расшифровывает аудиотокены в рамках группы <a href="https://www.noahlab.com.hk/" class="link-purple" target="_blank">Noah's Ark</a>. <br> Исследовал подходы Differential Evolution в AutoML для Physics Informed Neural Networks. Подход был интегрирован в Huawei Cloud.</p>
+          </div>
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 class="h5 text-purple">Junior Deep Learning Researcher</h4>
+            <p class="text-white" style="opacity: 0.4">Сентябрь 2022 – Август 2023</p>
+            <p>Исследовал подходы Physics Informed Neural Networks для моделирования уравнений Максвелла, <a href="https://link.springer.com/article/10.1134/S1064562423701120" class="link-purple" target="_blank">Шредингера</a>, Пуассона и др. 
+              <br> Была выпущена статья, как можно ускорить обучение PINN's в журнале <a href="https://link.springer.com/article/10.1007/s10994-023-06442-6" class="link-purple" target="_blank">Springer Machine Learning</a>.</p>
+          </div>
+
       </div>
     </section>
 
@@ -112,7 +135,7 @@
       <h2 class="h2 font-weight-bold my-4">Мои цели</h2>
       <div class="row">
         <div class="col-12 col-sm-8 pb-1">
-          <p class="pb-2">Мои ближайшие цели: изучить C++, алгоритмы и структуры данных, не зацикливаться на python. Контейнеризацию Docker и оркестрацию Kubernetes на уровне использования в "prod". Получить более глубокие знания в области сетей и линейной алгебры. Развивать устную Английскую речь ;)</p>
+          <p class="pb-2">Сделать ремонт, поднять 120 кг в жиме лежа, выучить английский на уровень B2, <br> посетить еще 10 стран в ближайшие 5 лет и купить рожковую кофемашину)).</p>
         </div>
       </div>
     </section>
@@ -121,8 +144,8 @@
       <h2 class="h2 font-weight-bold my-4">Сотрудничество</h2>
       <div class="row">
         <div class="col-12 col-sm-8 pb-1">
-          <p class="pb-1 mb-1">Мне было бы интересно:</p>
-          <ul class="list-unstyled mb-4">
+          <p class="pb-1 mb-1">Если интересно, что я могу для вас сделать, пишите:</p>
+          <!-- <ul class="list-unstyled mb-4">
             <li class="d-flex align-items-center align-content-start m-2" style="line-height: 24px;">
               <span class="pr-1">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
@@ -135,13 +158,13 @@
               </span>
               <span>Поучаствовать в олимпиаде как ml-developer</span>
             </li>
-          </ul>
+          </ul> -->
           <div class="row">
             <div class="col-12 col-sm-9">
               <p class="d-flex justify-content-between flex-wrap">
-                <a href="https://teleg.run/fbuzaev" class="btn btn-info mb-3" target="_blank">Написать в Telegram</a>
-                  <a href=https://drive.google.com/file/d/1XdAFkaZh8h7i0Ovs1we1ITmmobDO7Qgw/view?usp=sharing" class="btn btn-primary mb-3" target="_blank">Посмотреть резюме</a>
-                <a href="mailto:fbuzaev@gmail.com" class="btn btn btn-dark mb-3" target="_blank">Написать на почту</a>
+                <a href="https://t.me/fbuzaev" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать в Telegram</a>
+                <a href="https://drive.google.com/file/d/1MdaxIUVVriY-dP2QJFblb_eMxNDgjqYs/view?usp=sharing" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Посмотреть резюме</a>
+                <a href="mailto:fbuzaev@gmail.com" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать на почту</a>
               </p>
             </div>
           </div>
@@ -153,14 +176,12 @@
       <nav class="container navbar ">
         <ul class="nav m-auto py-2">
           <li class="nav-item mx-3">
-            Cделано в 2021 году.
+            Cделано с любовью в 2024 году.
           </li>
         </ul>
       </nav>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

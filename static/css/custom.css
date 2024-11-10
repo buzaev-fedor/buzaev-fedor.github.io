@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/Navigo-Regular-Desktop.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,10 +19,11 @@ html {
 body {
   font-size: 18px;
   line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dark-bg {
-  background: #000;
+  background-color: #102D69;
   color: #fff;
 }
 
@@ -17,21 +32,22 @@ body {
   color: #fff;
 }
 
-.font-color-green {
-  color: #5CB85C;
+.font-color-blue {
+  color: #102D69;
 }
 
-.btn-green {
+.btn-blue {
   font-size: 1.15rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: #5CB85C;
-  border-color: #5CB85C;
+  background-color: #102D69;
+  border-color: #102D69;
 }
 
 .promo-text {
   font-size: 24px;
   opacity: .75;
+  font-family: 'Roboto', sans-serif;
 }
 
 .link-border-bottom {
@@ -64,24 +80,38 @@ body {
   border-color: transparent;
 }
 
-.link.link-green {
-  color: #5CB85C;
-  border-color: #5CB85C;
+.link.link-blue {
+  color: #102D69;
+  border-color: #102D69;
 }
 
-.link.link-green:hover {
-  color: #5CB85C;
+.link.link-blue:hover {
+  color: #102D69;
+  border-color: transparent;
+}
+
+.link.link-purple {
+  color: #DFC7F2;
+  border-color: #DFC7F2;
+}
+
+.link.link-purple:hover {
+  color: #DFC7F2;
   border-color: transparent;
 }
 
 .link.link-yellow {
-  color: #ffeb3b;
-  border-color: #ffeb3b;
+  color: #DCFF05;
+  border-color: #DCFF05;
 }
 
 .link.link-yellow:hover {
-  color: #ffeb3b;
+  color: #DCFF05;
   border-color: transparent;
+}
+
+.text-yellow {
+  color: #DCFF05 !important;
 }
 
 .logo:hover {
@@ -106,14 +136,68 @@ body {
 }
 
 .story-link {
-  color: #5CB85C;
+  color: #102D69;
   text-decoration: none;
   transition: .4s ease;
-  border-bottom: 2px solid #5CB85C;
+  border-bottom: 2px solid #102D69;
 }
 
 .story-link:hover {
-  color: #5CB85C;
+  color: #102D69;
   text-decoration: none;
   border-color: transparent;
+}
+
+.greeting-text {
+  color: #DFC7F2;
+  font-family: 'Navigo', sans-serif;
+  font-weight: normal;
+}
+
+.navbar .nav-link.link-purple {
+  color: #DFC7F2 !important;
+}
+
+.navbar .nav-link.link-purple:hover {
+  color: #DFC7F2 !important;
+}
+
+.logo-right {
+  margin-left: 6px;
+}
+
+.text-blue {
+  color: #DFC7F2 !important;
+}
+
+h1.greeting-text {
+  color: #DFC7F2;
+}
+
+.btn-yellow {
+  background-color: #DCFF05;
+  color: #102D69;
+}
+
+.btn-yellow:hover {
+  background-color: #c4e004;  /* Немного темнее при наведении */
+  color: #102D69;
+}
+
+.navigo-font {
+  font-family: 'Navigo', sans-serif;
+  font-weight: normal;
+}
+
+.text-purple {
+  color: #DFC7F2 !important;
+}
+
+.text-white-40 {
+  color: #fff !important;
+  opacity: 0.4;
+}
+
+.position {
+  margin-left: 20px;
 }

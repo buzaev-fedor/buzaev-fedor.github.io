@@ -1,3 +1,5 @@
-# portfolio-flask
-My portfolio site using Flask.
-Template made by Stepik
+# portfolio
+
+My portfolio site.
+
+I used flask and bootstrap for this project.
